@@ -1,5 +1,4 @@
 {
-  "$schema": "https://codesandbox.io/schemas/tasks.json",
   "setupTasks": [
     {
       "name": "Install Dependencies",
@@ -18,10 +17,6 @@
     "build": {
       "name": "Build for Production",
       "command": "bun run build"
-    },
-    "lint": {
-      "name": "Run ESLint",
-      "command": "bun run lint"
     }
   }
 }
