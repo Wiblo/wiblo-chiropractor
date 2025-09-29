@@ -1,0 +1,27 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "bun install"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "Start Development Server",
+      "command": "bun run dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "build": {
+      "name": "Build for Production",
+      "command": "bun run build"
+    },
+    "lint": {
+      "name": "Run ESLint",
+      "command": "bun run lint"
+    }
+  }
+}
